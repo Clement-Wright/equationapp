@@ -1,0 +1,8 @@
+type Equation @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  equation: String
+  intercepts: String
+  domain: String
+  range: String
+}
+ 

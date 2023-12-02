@@ -1,0 +1,29 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-equationapp-staging-204714-authRole",
+      "UnauthRoleArn": "arn:aws:iam::546894658142:role/amplify-equationapp-staging-204714-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::546894658142:role/amplify-equationapp-staging-204714-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-equationapp-staging-204714-deployment",
+      "UnauthRoleName": "amplify-equationapp-staging-204714-unauthRole",
+      "StackName": "amplify-equationapp-staging-204714",
+      "StackId": "arn:aws:cloudformation:us-east-1:546894658142:stack/amplify-equationapp-staging-204714/f993a520-9153-11ee-b929-124b6f995b23",
+      "AmplifyAppId": "dcqoefwu8dgqt"
+    },
+    "categories": {
+      "auth": {
+        "equationappfe37a884": {}
+      },
+      "function": {
+        "S3Trigger68493799": {
+          "deploymentBucketName": "amplify-equationapp-staging-204714-deployment",
+          "s3Key": "amplify-builds/S3Trigger68493799-67352f63536a476f4a44-build.zip"
+        }
+      },
+      "storage": {
+        "EquaStor": {}
+      }
+    }
+  }
+}

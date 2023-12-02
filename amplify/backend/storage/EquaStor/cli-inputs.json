@@ -1,0 +1,14 @@
+{
+  "resourceName": "EquaStor",
+  "policyUUID": "95420b76",
+  "bucketName": "equabucket",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

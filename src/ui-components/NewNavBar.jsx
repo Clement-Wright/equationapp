@@ -12,7 +12,7 @@ import { Button, Flex } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
 export default function NewNavBar(props) {
   const { overrides, ...rest } = props;
-  const buttonOnClick = useNavigateAction({ type: "url", url: "/Create" });
+  const buttonOnClick = useNavigateAction({ type: "url", url: "/NewNote" });
   return (
     <Flex
       gap="40px"

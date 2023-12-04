@@ -12,7 +12,7 @@ class App extends Component {
           <Router>
             <Routes>
                 <Route exact path='/' element={<div><NewNavBar/><EquationNoteCardCollection isPaginated itemsPerPage={3} /></div>}/>
-                <Route exact path='https://master.dcqoefwu8dgqt.amplifyapp.com/NewNote' element={<EquationCreateForm/>}/>
+                <Route exact path='/NewNote' element={<EquationCreateForm/>}/>
                 <Route exact path='/Edit' element={<EquationUpdateForm/>}/>
             </Routes>
           </Router>

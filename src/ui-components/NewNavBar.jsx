@@ -12,10 +12,9 @@ import { Button, Flex } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
 export default function NewNavBar(props) {
   const { overrides, ...rest } = props;
-  const buttonOnClick = useNavigateAction({
-    type: "url",
-    url: "https://master.dcqoefwu8dgqt.amplifyapp.com/NewNote",
-  });
+  const frameThreeTwoOneThreeNineFourZeroOneNineFourNineOnClick =
+    useNavigateAction({ type: "url", url: "/NewNote" });
+  const buttonOnClick = useNavigateAction({ type: "url", url: "/NewNote" });
   return (
     <Flex
       gap="40px"
@@ -84,6 +83,9 @@ export default function NewNavBar(props) {
         basis="0"
         position="relative"
         padding="0px 0px 0px 0px"
+        onClick={() => {
+          frameThreeTwoOneThreeNineFourZeroOneNineFourNineOnClick();
+        }}
         {...getOverrideProps(overrides, "Frame 32139401949")}
       >
         <Button

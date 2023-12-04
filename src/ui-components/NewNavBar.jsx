@@ -11,10 +11,9 @@ import LogoWithText from "./LogoWithText";
 import { Button, Flex } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
 export default function NewNavBar(props) {
-  const { overrides, ...rest } = props;
+  const { equation, overrides, ...rest } = props;
   const frameThreeTwoOneThreeNineFourZeroOneNineFourNineOnClick =
-    useNavigateAction({ type: "url", url: "/NewNote" });
-  const buttonOnClick = useNavigateAction({ type: "url", url: "/NewNote" });
+    useNavigateAction({ type: "url", url: "/newnote" });
   return (
     <Flex
       gap="40px"
@@ -96,9 +95,6 @@ export default function NewNavBar(props) {
           isDisabled={false}
           variation="primary"
           children="+"
-          onClick={() => {
-            buttonOnClick();
-          }}
           {...getOverrideProps(overrides, "Button")}
         ></Button>
       </Flex>

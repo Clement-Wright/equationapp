@@ -5,6 +5,7 @@
  **************************************************************************/
 
 import * as React from "react";
+import { Equation } from "../models";
 import { LogoWithTextProps } from "./LogoWithText";
 import { ButtonProps, FlexProps } from "@aws-amplify/ui-react";
 import { MyIconProps } from "./MyIcon";
@@ -28,6 +29,8 @@ export declare type NewNavBarOverridesProps = {
     Button?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type NewNavBarProps = React.PropsWithChildren<Partial<FlexProps> & {
+    equation?: Equation;
+} & {
     overrides?: NewNavBarOverridesProps | undefined | null;
 }>;
 export default function NewNavBar(props: NewNavBarProps): React.ReactElement;

@@ -1,22 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "@aws-amplify/ui-react/styles.css";
 import { Amplify } from 'aws-amplify';
 import { ThemeProvider } from '@aws-amplify/ui-react';
-import config from './aws-exports';
+import awsconfig from './aws-exports';
 import {EquationNoteCardCollection, EquationNoteCard, NewNavBar} from "./ui-components";
 import { BrowserRouter } from 'react-router-dom';
 import {studioTheme} from './ui-components';
-Amplify.configure(config);
+Amplify.configure(awsconfig);
 
 
 
 const container = document.getElementById("root");
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <BrowserRouter>

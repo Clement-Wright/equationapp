@@ -8,7 +8,7 @@ import "@aws-amplify/ui-react/styles.css";
 import { Amplify } from 'aws-amplify';
 import { ThemeProvider } from '@aws-amplify/ui-react';
 import awsconfig from './aws-exports';
-import {EquationNoteCardCollection, EquationNoteCard, NewNavBar} from "./ui-components";
+import {EquationNoteCardCollection, EquationNoteCard, EquationNavBar} from "./ui-components";
 import { BrowserRouter } from 'react-router-dom';
 import {studioTheme} from './ui-components';
 Amplify.configure(awsconfig);

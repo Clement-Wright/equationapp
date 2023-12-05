@@ -6,6 +6,7 @@
 
 export { default as Buttondefaultfalseprimary } from "./Buttondefaultfalseprimary";
 export { default as EquationCreateForm } from "./EquationCreateForm";
+export { default as EquationNavBar } from "./EquationNavBar";
 export { default as EquationNewNote } from "./EquationNewNote";
 export { default as EquationNoteCard } from "./EquationNoteCard";
 export { default as EquationNoteCardCollection } from "./EquationNoteCardCollection";

@@ -13,7 +13,7 @@ class App extends Component {
           <Router>
             <Routes>
                 <Route exact path='/' element={<div><EquationNavBar/><EquationNoteCardCollection isPaginated itemsPerPage={3} /></div>}/>
-                <Route exact path='/NewNote' element={<EquationCreateForm/>}/>
+                <Route exact path='/newnote' element={<EquationCreateForm/>}/>
                 <Route exact path='/create' element={<EquationNewNote/>}/>
                 <Route exact path='/update' element={<EquationUpdateForm/>}/>
             </Routes>

@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 class App extends Component {
     render() {
     return (
-        <div className="App"><header className="App-header">\
+        <div className="App"><header className="App-header">
             <Routes>
                 <Route exact path='/' element={<div><EquationNavBar/><EquationNoteCardCollection isPaginated itemsPerPage={3} /></div>}/>
                 <Route exact path='/newnote' element={<EquationCreateForm/>}/>
